@@ -2,8 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h1>This is About</h1>
+    <div className="mx-auto my-5">
+      <img
+        className="rounded-full mx-auto"
+        src="https://avatars.githubusercontent.com/u/90525298?v=4"
+        alt=""
+      />
     </div>
   );
 };

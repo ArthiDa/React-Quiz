@@ -19,6 +19,8 @@ function App() {
         },
         {
           path: "/stats",
+          loader: async () =>
+            fetch("https://codeforces.com/api/user.status?handle=arthi73"),
           element: <Stats></Stats>,
         },
         {
